@@ -64,7 +64,7 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
         <p class = "vidas">Vidas restantes:<br> <?php echo $_SESSION['vidas']; ?></p>
         <form method="post">
             <label for="letra">Introduce una letra:<br></label>
-            <input type="text" name="letra" id="letra" maxlength="1" required>
+            <input type="text" name="letra" id="letra" maxlength="1" required><br>
             <button type="submit">Adivinar</button>
         </form>
         <p class = "letras">Letras usadas:<br> <?php echo implode(', ', $_SESSION['letras_usadas']); ?></p>

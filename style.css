@@ -10,6 +10,8 @@ body {
     width: 800px;
     grid-template: 200px 200px / 200px 400px 200px;
     margin: 0 auto;
+    background-color: rgb(236, 225, 210);
+    border-radius: 5px;
 }
 
 .palabra {
@@ -38,4 +40,17 @@ form {
     grid-row: 2/3;
     align-self: center;
     justify-self: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border-style: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(135, 170, 182);
 }
